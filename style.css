@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa:400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+body {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  min-width: 550px;
+}
+
+#start{
+  background-color: red;
+  color:#fff;
+}
+
+#strict{
+  background-color: yellow;
+  color:#000;
+}
+
+
+.reset {
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+td {
+  height: 300px;
+  padding: 8px;
+  position: relative;
+  vertical-align: top;
+  width: 300px;
+}
+
+div {
+  position: relative;
+}
+
+section {
+  width: 500px;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: auto;
+  right: 0;
+  z-index: 0;
+}
+
+table {
+  border-radius: 100%;
+}
+
+table.bola {
+  margin: 3em auto;
+  position: relative;
+  z-index: 3;
+  font-family: 'Permanent Marker', cursive;
+}
+
+td span {
+  font-size: 59px;
+  margin-left: 26px;
+}
+
+.red {
+  background-color: #880404;
+  border-top-left-radius: 100%;
+}
+
+.blue {
+  background-color: #02026d;
+  border-top-right-radius: 100%;
+}
+
+.green {
+  background-color: #034003;
+  border-bottom-left-radius: 100%;
+}
+
+.yellow {
+  background-color: #ad8d01;
+  border-bottom-right-radius: 100%;
+}
+
+.menu {
+  width: 250px;
+  height: 250px;
+  background-color: #e1e1d0;
+  border-radius: 145px;
+  margin: 0 auto;
+  position: relative;
+  top: 220px;
+  z-index: 1;
+  display: block;
+  border: 15px solid #000;
+}
+
+span {
+ display: block;
+ text-align: center;
+ font-size: 40px;
+ color: #000;
+}
+
+.btn {
+  border-radius: 27%;
+  width: 75px;
+  margin-left: 10px;
+}
+
+.placar {
+  width: 100px;
+  height: 40px;
+  margin-top: 48px;
+  border-radius: 15px;
+  background-color: #4e0303;
+  color: #a20404;
+  font-size: 30px;
+  text-align: center;
+  outline: none;
+  pointer-events: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.onoffswitch {
+  display: none;
+  left: 44.5%;
+  z-index: 10;
+  top: 105px;
+  position: relative;
+  width: 73px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+  display: none;
+}
+
+.onoffswitch-label {
+  display: block; overflow: hidden; cursor: pointer;
+  border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+  display: block; width: 200%; margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+  display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+  font-size: 15px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+  box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+  content: "Off";
+  padding-left: 10px;
+  background-color: #B8B1B1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+  content: "On";
+  padding-right: 10px;
+  background-color: #FF0000; color: #FFFFFF;
+  text-align: right;
+}
+.onoffswitch-switch {
+  display: block; width: 13px; margin: 8.5px;
+  background: #FFFFFF;
+  position: absolute; top: 0; bottom: 0;
+  right: 39px;
+  border: 2px solid #999999; border-radius: 20px;
+  transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 0px; 
+}
